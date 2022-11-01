@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}

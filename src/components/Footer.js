@@ -5,7 +5,7 @@ import '../styles/Foot.css'
 function Footer() {
     return (
         <footer>
-            <a href="https://github.com/RBL1992">GitHub</a>
+            <a href="https://github.com/RBL1992"><img src="../images/GitHubLogo.png" /></a>
             <a href="https://www.linkedin.com/in/roy-logan-6a352789/">LinkedIn</a>
         </footer>
     )
