@@ -1,7 +1,9 @@
 .about-me {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-left: 160px;
+    padding-top: 35px;
+    font-family: 'Tajawal', sans-serif; 
 }
 
 h1 {

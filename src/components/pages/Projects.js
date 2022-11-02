@@ -2,8 +2,8 @@ import React from 'react';
 import ProjectCard from '../ProjectCard.js';
 import teamSpeakLogo from '../../images/TeamSpeakLogo.png';
 import bestArtistLogo from '../../images/BestArtistSearchEverLogo.png';
-import jatelogo from '../../images/jatelogo.png'
-import readmeLogo from '../../images/readmeLogo.png'
+import jatelogo from '../../images/jateLogo.svg'
+import readmeLogo from '../../images/readmeLogo.svg'
 
 import '../../styles/Projects.css'
 
@@ -17,7 +17,7 @@ function Projects() {
             />
             <ProjectCard
                 img={jatelogo}
-                name="J.A.T.E"
+                name="Text Editor"
                 link="https://frozen-ravine-97502.herokuapp.com/"
             />
             <ProjectCard
@@ -27,7 +27,7 @@ function Projects() {
             />
             <ProjectCard
                img={readmeLogo}
-               name="README"
+               name="README Generator"
                link="https://github.com/RBL1992/README-generator" 
             />
         </div>
