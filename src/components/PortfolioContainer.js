@@ -3,7 +3,6 @@ import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
 import Main from "./pages/Main.js"
 import Projects from "./pages/Projects.js"
-import Resume from "./Resume.js";
 
 import '../styles/PortfolioContainer.css'
 
@@ -18,7 +17,6 @@ function PortfolioContainer() {
     if (currentPage === 'Projects') {
       return <Projects />;
     }
-    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
