@@ -1,17 +1,35 @@
 import React from 'react';
+import ProjectCard from '../ProjectCard.js';
+import teamSpeakLogo from '../../images/TeamSpeakLogo.png';
+import bestArtistLogo from '../../images/BestArtistSearchEverLogo.png';
+import jatelogo from '../../images/jatelogo.png'
+import readmeLogo from '../../images/readmeLogo.png'
 
 import '../../styles/Projects.css'
 
 function Projects() {
     return (
         <div>
-            <div>
-                <h5>Card title</h5>
-                <h6>Card subtitle</h6>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="card-link">Card link</a>
-                <a href="#" className="card-link">Another link</a>
-            </div>
+            <ProjectCard
+                img={teamSpeakLogo}
+                name="TeamSpeak"
+                link="https://teamspeak-org.herokuapp.com/"
+            />
+            <ProjectCard
+                img={jatelogo}
+                name="J.A.T.E"
+                link="https://frozen-ravine-97502.herokuapp.com/"
+            />
+            <ProjectCard
+                img={bestArtistLogo}
+                name="B.A.S.E"
+                link="https://nolacoder.github.io/Best-Artist-Search-Ever/"
+            />
+            <ProjectCard
+               img={readmeLogo}
+               name="README"
+               link="https://github.com/RBL1992/README-generator" 
+            />
         </div>
     )
 }
