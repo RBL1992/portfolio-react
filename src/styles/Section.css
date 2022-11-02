@@ -1,8 +1,7 @@
 div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 100px;
+    justify-content: center
 }
 
 h1 {

@@ -2,14 +2,20 @@ import React from 'react';
 
 import '../styles/Navbar.css'
 
-function Navbar() {
+function Navbar({ handlePageChange }) {
     return (
-        <nav>
-                <a onClick={() => handlePageChange('Projects')} href="./projects.html">Projects</a>
-                <a href="https://github.com/RBL1992">GitHub</a>
-                <a href="https://www.linkedin.com/in/roy-logan-6a352789/">LinkedIn</a>
+        <div className='nav-wrapper'>
+            <nav>
+                <a onClick={() => handlePageChange('Projects')} >Projects</a>
+                <a href="https://github.com/RBL1992" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/roy-logan-6a352789/" target="_blank">LinkedIn</a>
                 <a href="mailto: loganroyjr4@gmail.com">Email Me</a>
-        </nav>
+                <a onClick={() => handlePageChange('Resume')}>Resume</a>
+            </nav>
+            <div className='logo'>
+                <a onClick={() => handlePageChange('Main')}>ROY LOGAN</a>
+            </div>
+        </div>
     )
 }
 

@@ -4,8 +4,8 @@ import '../styles/Section.css'
 
 function Section() {
     return (
-        <div class="container">
-        <h1 class="display-1">Roy B. Logan</h1>
+        <div className="container">
+        <h1 className="display-1">Roy B. Logan</h1>
         <p>Hello, I'm Roy Logan.<br/>
             <br/>
             Full Stack Professional and Former VP of Operations for Chicago Mable Company. 

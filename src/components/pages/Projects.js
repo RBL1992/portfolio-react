@@ -4,17 +4,14 @@ import '../../styles/Projects.css'
 
 function Projects() {
     return (
-        <div class="container cards">
-            <div class="cards" style="width: 18rem;">
-                <img src="../../images/TeamSpeakLogo.png" class="card-img-top"
-                    alt="screen shot of website" />
-                <div class="card-body">
-                    <h5 class="card-title">TeamSpeak</h5>
-                    <p class="card-text">Created a full stack application to enhance team building!</p>
-                    <a href="https://teamspeak-org.herokuapp.com/" class="btn btn-primary">View Website</a>
-                </div>
+        <div>
+            <div>
+                <h5>Card title</h5>
+                <h6>Card subtitle</h6>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" className="card-link">Card link</a>
+                <a href="#" className="card-link">Another link</a>
             </div>
-            <br />
         </div>
     )
 }

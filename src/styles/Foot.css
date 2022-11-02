@@ -1,3 +1,15 @@
 footer a {
     padding: 10px;
+    display: inline;
+    border: 1px solid red
+    
+}
+
+.icon {
+    color: whitesmoke
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+    transition: .5s;
 }

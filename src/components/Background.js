@@ -3,9 +3,9 @@ import React from 'react';
 import '../styles/Background.css'
 
 function Background() {
-   <body>
-    
-   </body>
+    return (
+       <body/>
+    )
 }
 
 export default Background;

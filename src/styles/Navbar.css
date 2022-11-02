@@ -1,11 +1,25 @@
-nav {
+.nav-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:space-between;
+    border: 1px solid red;
 }
 
-nav a {
-    padding: 10px;
+.nav-wrapper nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-wrapper nav a {
+    margin-right: 10px;
     text-decoration: none;
     color: whitesmoke;
 }
+
+.logo {
+    padding-left: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
