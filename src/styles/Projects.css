@@ -1,48 +1,6 @@
-.cards-wrapper{
-  border: 1px solid red;
-  width: 100vw;
-  height: auto;
-}
-
-
-.card {
+.project-card-wrapper {
     display: flex;
-    position: relative;
-    width: 180px;
-    height: 180px;
-    padding:5px
-}
-
-.custom-img {
-    opacity: 1;
-    display: block;
-    width: 100%;
+    justify-content: center;
+    width: 100vw;
     height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    visibility: none;
-  }
-
-  .card:hover .custom-img {
-    opacity: 0.3;
-  }
-  
-  .card:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    color: whitesmoke;
-    font-size: 16px;
-    font-family: 'Tajawal', sans-serif; 
-  }
+}

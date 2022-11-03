@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 180px;
+    padding:10px
+}
+
+.custom-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    visibility: none;
+  }
+
+  .card:hover .custom-img {
+    opacity: 0.3;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+    
+  .text {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif; 
+  }

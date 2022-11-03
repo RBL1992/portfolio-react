@@ -8,7 +8,7 @@ import '../../styles/Projects.css'
 
 function Projects() {
     return (
-        <div>
+        <div className='project-card-wrapper'>
             <ProjectCard
                 img={teamSpeakLogo}
                 name="TeamSpeak"
