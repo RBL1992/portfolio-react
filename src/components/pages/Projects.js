@@ -11,18 +11,18 @@ function Projects() {
         <div>
             <ProjectCard
                 img={teamSpeakLogo}
-                name="TeamSpeak"
-                link="https://teamspeak-org.herokuapp.com/"
+                liveLink="https://teamspeak-org.herokuapp.com/"
+                gitHubLink="https://github.com/park-d/team-speak"
             />
             <ProjectCard
                 img={jatelogo}
-                name="Text Editor"
-                link="https://frozen-ravine-97502.herokuapp.com/"
+                liveLink="https://frozen-ravine-97502.herokuapp.com/"
+                gitHubLink="https://github.com/RBL1992/text-editor-PWA"
             />
             <ProjectCard
                img={readmeLogo}
-               name="README Generator"
-               link="https://github.com/RBL1992/README-generator" 
+               liveLink="README Generator"
+               gitHubLink="https://github.com/RBL1992/README-generator" 
             />
         </div>
     )
