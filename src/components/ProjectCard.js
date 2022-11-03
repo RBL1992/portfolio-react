@@ -3,7 +3,7 @@ import '../styles/Projects.css'
 
 function ProjectCard(props) {
     return (
-        <div>
+        <div className="cards-wrapper">
             <div className="card">
                 <img src={props.img} alt="screen shot of project"className="card-img-top custom-img" />
                 <div className="middle">

@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard.js';
 import teamSpeakLogo from '../../images/TeamSpeakLogo.png';
-import bestArtistLogo from '../../images/BestArtistSearchEverLogo.png';
 import jatelogo from '../../images/jateLogo.svg'
 import readmeLogo from '../../images/readmeLogo.svg'
 
@@ -19,11 +18,6 @@ function Projects() {
                 img={jatelogo}
                 name="Text Editor"
                 link="https://frozen-ravine-97502.herokuapp.com/"
-            />
-            <ProjectCard
-                img={bestArtistLogo}
-                name="B.A.S.E"
-                link="https://nolacoder.github.io/Best-Artist-Search-Ever/"
             />
             <ProjectCard
                img={readmeLogo}
