@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio-react/static/css/main.e7b450fc.chunk.css",
-  "main.js": "/portfolio-react/static/js/main.ebe07703.chunk.js",
-  "main.js.map": "/portfolio-react/static/js/main.ebe07703.chunk.js.map",
-  "static/js/1.ca198d2a.chunk.js": "/portfolio-react/static/js/1.ca198d2a.chunk.js",
-  "static/js/1.ca198d2a.chunk.js.map": "/portfolio-react/static/js/1.ca198d2a.chunk.js.map",
+  "main.css": "/portfolio-react/static/css/main.6c9fedd2.chunk.css",
+  "main.js": "/portfolio-react/static/js/main.6fd1e924.chunk.js",
+  "main.js.map": "/portfolio-react/static/js/main.6fd1e924.chunk.js.map",
+  "static/js/1.3a87f879.chunk.js": "/portfolio-react/static/js/1.3a87f879.chunk.js",
+  "static/js/1.3a87f879.chunk.js.map": "/portfolio-react/static/js/1.3a87f879.chunk.js.map",
   "runtime~main.js": "/portfolio-react/static/js/runtime~main.9338e8a0.js",
   "runtime~main.js.map": "/portfolio-react/static/js/runtime~main.9338e8a0.js.map",
   "static/media/Roy B Logan Jr Resume (1).pdf": "/portfolio-react/static/media/Roy B Logan Jr Resume (1).e5c61c88.pdf",
@@ -11,8 +11,8 @@
   "static/media/jateLogo.svg": "/portfolio-react/static/media/jateLogo.d5d4777a.svg",
   "static/media/readmeLogo.svg": "/portfolio-react/static/media/readmeLogo.e6ff5f94.svg",
   "static/media/Background.css": "/portfolio-react/static/media/IMG_3023.94dcdb6f.JPG",
-  "static/css/main.e7b450fc.chunk.css.map": "/portfolio-react/static/css/main.e7b450fc.chunk.css.map",
+  "static/css/main.6c9fedd2.chunk.css.map": "/portfolio-react/static/css/main.6c9fedd2.chunk.css.map",
   "index.html": "/portfolio-react/index.html",
-  "precache-manifest.9298ef666eb4143534abe65a3cd7b9a3.js": "/portfolio-react/precache-manifest.9298ef666eb4143534abe65a3cd7b9a3.js",
+  "precache-manifest.e011077b6d1b09b338883b2589cab230.js": "/portfolio-react/precache-manifest.e011077b6d1b09b338883b2589cab230.js",
   "service-worker.js": "/portfolio-react/service-worker.js"
 }
