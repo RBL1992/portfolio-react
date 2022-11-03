@@ -19,6 +19,6 @@ Portfolio of ME... with links to a few projects, GitHub, LinkedIn, my email, and
 
 ## Questions
 
-GitHub: [rbl1992](https://github.com/rbl1992)
+* [GitHub](https://github.com/rbl1992)
 
-Email: [mailto:loganroyjr4@gmail.com]
+* [Email Me](mailto:loganroyjr4@gmail.com)
